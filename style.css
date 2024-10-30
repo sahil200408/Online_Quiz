@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(44, 205, 230), rgb(198, 221, 228));
+    background-image: linear-gradient(to right, rgb(251, 73, 45), rgb(235, 189, 109));
     overflow-y: hidden;
 }
 
@@ -52,7 +52,7 @@ h1 {
     width: 85%;
     padding: 10px;
     font-size: 1.2rem;
-    background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(198, 221, 228));
+    background-image: linear-gradient(to right, rgb(55, 59, 62), rgb(198, 221, 228));
     color: white;
     font-weight: 600;
     border: none;
@@ -63,7 +63,7 @@ h1 {
 }
 
 #loginBox button:hover {
-    background-image: linear-gradient(to right, rgb(198, 221, 228), rgb(0, 153, 255));
+    background-image: linear-gradient(to right, rgb(170, 174, 175), rgb(20, 22, 24));
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
 }
 
@@ -117,7 +117,7 @@ button.btn {
     width: 90%;
     padding: 1vh;
     font-size: 2vw;
-    background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(198, 221, 228));
+    background-image: linear-gradient(to right, rgb(12, 13, 14), rgb(0, 0, 0));
     text-transform: uppercase;
     color: white;
     font-weight: 600;
@@ -129,7 +129,7 @@ button.btn {
 }
 
 button.btn:hover {
-    background-image: linear-gradient(to right, rgb(198, 221, 228), rgb(0, 153, 255));
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(12, 12, 13));
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
 }
 

@@ -21,12 +21,12 @@ function login() {
 // Quiz Questions
 const questions = [
     {
-        que: "1) What year was JavaScript invented?",
-        a: "1995",
-        b: "1996",
-        c: "1994",
-        d: "None of the above",
-        correct: "a",
+        que: "1)What is the main language used for web development?",
+        a: "Python",
+        b: "Java",
+        c: "HTML",
+        d: "C++",
+        correct: "c" ,
     },
     {
         que: "2) Which of the following is a markup language?",
@@ -53,12 +53,12 @@ const questions = [
         correct: "b",
     },
     {
-        que: "5) What is the main language used for web development?",
-        a: "Python",
-        b: "Java",
-        c: "HTML",
-        d: "C++",
-        correct: "c",
+        que: "5) What year was JavaScript invented?",
+        a: "1995",
+        b: "1996",
+        c: "1994",
+        d: "None of the above",
+        correct: "a",
     }
 ];
 
