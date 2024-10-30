@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(44, 205, 230), rgb(198, 221, 228));
+    overflow-y: hidden;
+}
+
+h1 {
+    background-color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 1%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.592);
+}
+
+/* Login Box Styling */
+#loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+#loginBox h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+#loginBox input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginBox button {
+    width: 85%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(198, 221, 228));
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+#loginBox button:hover {
+    background-image: linear-gradient(to right, rgb(198, 221, 228), rgb(0, 153, 255));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
+}
+
+#loginMessage {
+    color: red;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Quiz Box Styling */
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#box {
+    position: relative;
+    width: 70vw;
+    height: 40vw;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 1%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.794);
+}
+
+#box h2 {
+    margin-top: 5%;
+    font-size: 3vw;
+}
+
+.options {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+button.btn {
+    width: 90%;
+    padding: 1vh;
+    font-size: 2vw;
+    background-image: linear-gradient(to right, rgb(0, 153, 255), rgb(198, 221, 228));
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+button.btn:hover {
+    background-image: linear-gradient(to right, rgb(198, 221, 228), rgb(0, 153, 255));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
+}
+
+.result {
+    margin-top: 5%;
+    font-size: 2vw;
+    display: flex;
+    gap: 20px;
+}
+
+/* Responsive Styling */
+@media (min-width: 800px) {
+    h1 {
+        font-size: 3vw;
+    }
+    input[type="radio"] {
+        transform: scale(2);
+        margin: 0 5px;
+    }
+    #box {
+        height: 30vw;
+    }
+}

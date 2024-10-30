@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Quiz Website</h1>
+    <!-- Login Section -->
+    <div id="loginBox">
+        <h2>Login</h2>
+        <!-- Pre-filled email and password fields -->
+        <input type="email" id="email" placeholder="Email" value="codsoft23mail.com">
+        <input type="password" id="password" placeholder="Password" value="234567">
+        <button onclick="login()">Login</button>
+        <p id="loginMessage"></p>
+    </div>
+
+    <!-- Quiz Section (Hidden initially) -->
+    <div id="quizContainer" style="display: none;">
+        <h1>Simple Quiz</h1>
+        <div class="main">
+            <div id="box">
+                <h2 id="quesBox">This is the dummy question</h2>
+                <div class="options" id="options">
+                    <div class="row">
+                        <input class="option" type="radio" name="option" id="option1" value="a">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="row">
+                        <input class="option" type="radio" name="option" id="option2" value="b">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="row">
+                        <input class="option" type="radio" name="option" id="option3" value="c">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="row">
+                        <input class="option" type="radio" name="option" id="option4" value="d">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+                <button class="btn">Submit</button>
+                <div class="result">
+                    <h4 id="answer-result"></h4>
+                    <h4 id="score"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
